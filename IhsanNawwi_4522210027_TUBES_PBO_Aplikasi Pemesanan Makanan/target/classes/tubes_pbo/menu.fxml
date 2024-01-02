@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" styleClass="vbox" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tubes_pbo.MenuController">
+    <children>
+        <ListView fx:id="menuListView" styleClass="list-view" />
+        <Button onAction="#addToCart" styleClass="btn" text="Tambah pesanan" />
+        <Label fx:id="totalLabel" styleClass="label" />
+        <TextField fx:id="amountField" promptText="Masukkan Jumlah Uang" styleClass="tf" />
+        <Button onAction="#switchToSecondary" styleClass="btn" text="Lanjutkan untuk pembayaran" />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

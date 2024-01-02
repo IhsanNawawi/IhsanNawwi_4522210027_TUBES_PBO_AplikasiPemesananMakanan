@@ -1,0 +1,39 @@
+.vbox {
+    -fx-background-image: url("background.jpg");
+}
+
+.label{
+    -fx-background-color: mediumblue;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+}
+.btn {
+    -fx-background-color: mediumblue;
+    -fx-text-fill: white;
+    -fx-border-radius: 0;
+    -fx-border-color: transparent;
+    -fx-cursor: pointer;
+    -fx-transition: background-color 0.3s, -fx-text-fill 0.3s;
+}
+
+.btn:hover {
+    -fx-background-color: darkblue;
+    -fx-text-fill: white;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-text-fill: antiquewhite;
+}
+
+.list-cell:focused {
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-border-color: blue;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+}

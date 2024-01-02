@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="195.0" prefWidth="217.0" spacing="20.0" styleClass="vbox" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tubes_pbo.PrimaryController">
+   <children>
+      <Label styleClass="label" text="SELAMAT DATANG DIKANTIN " />
+       <TextField fx:id="namaField" prefHeight="30.0" maxWidth="150.0" promptText="Masukkan Nama Pelanggan" styleClass="tf" />
+       <TextField fx:id="mejaField" prefHeight="30.0" maxWidth="150.0" promptText="Masukkan Nomor Meja" styleClass="tf" />
+      <Button fx:id="menuButton" onAction="#switchToMenu" styleClass="btn" text="KLIK UNTUK MEMESAN" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
